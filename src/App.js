@@ -9,7 +9,7 @@ function App() {
   const handleSubmit = (e) => {
     const { name, size, type, lastModifiedDate } = document.getElementById("file").files['0'];
     setFile([...files, { name, size, type, lastModifiedDate }])
-    console.log('name', name);
+    // console.log('name', name);
 
   }
 
@@ -39,3 +39,4 @@ function App() {
 }
 
 export default App;
+
